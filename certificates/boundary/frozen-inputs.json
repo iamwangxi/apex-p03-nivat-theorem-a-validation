@@ -1,0 +1,410 @@
+{
+  "schema": "convex-nivat-boundary-inputs-v1",
+  "frozen_at": "2026-09-29T18:15:04.097638+00:00",
+  "selection": "Deterministic mechanism-based list, frozen before generating any round-two certificate. No replacement after outcomes.",
+  "case_count": 12,
+  "scope": "Algebraic inputs only; no corresponding star configurations asserted. B06 is beyond the paper primitive-direction premise.",
+  "cases": [
+    {
+      "id": "B01",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        1
+      ],
+      "expected_dimension": 2,
+      "purpose": "m=2，正向单模基准"
+    },
+    {
+      "id": "B02",
+      "vectors": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "A_coefficients": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "kappa": [
+        2,
+        1
+      ],
+      "expected_dimension": 2,
+      "purpose": "m=2，负行列式，混合±1谱"
+    },
+    {
+      "id": "B03",
+      "vectors": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        2
+      ],
+      "expected_dimension": 2,
+      "purpose": "m=2，两方向反向，Laurent负指数"
+    },
+    {
+      "id": "B04",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        1
+      ],
+      "expected_dimension": 14,
+      "purpose": "m=2，格指数7"
+    },
+    {
+      "id": "B05",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -11
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        2
+      ],
+      "expected_dimension": 22,
+      "purpose": "m=2，负行列式-11，格指数11"
+    },
+    {
+      "id": "B06",
+      "vectors": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "A_coefficients": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "kappa": [
+        2,
+        1
+      ],
+      "expected_dimension": 12,
+      "purpose": "m=2，非原始方向；只检一般代数扩展"
+    },
+    {
+      "id": "B07",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "kappa": [
+        2,
+        4
+      ],
+      "expected_dimension": 8,
+      "purpose": "m=2，Phi1*Phi2 与 Phi4，次数2/2"
+    },
+    {
+      "id": "B08",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          -1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ]
+      ],
+      "kappa": [
+        6,
+        6
+      ],
+      "expected_dimension": 16,
+      "purpose": "m=2，Phi1*Phi2*Phi3 与 Phi6，次数4/2"
+    },
+    {
+      "id": "B09",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        2,
+        4
+      ],
+      "expected_dimension": 14,
+      "purpose": "m=3，首轮闸门回归"
+    },
+    {
+      "id": "B10",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        2,
+        4
+      ],
+      "expected_dimension": 10,
+      "purpose": "m=3，反向与混合符号，Phi4"
+    },
+    {
+      "id": "B11",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        1,
+        1
+      ],
+      "expected_dimension": 12,
+      "purpose": "m=3，不同格指数1/2/3"
+    },
+    {
+      "id": "B12",
+      "vectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "A_coefficients": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "kappa": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "expected_dimension": 14,
+      "purpose": "m=4，CRT多因子与双c覆盖"
+    }
+  ]
+}
