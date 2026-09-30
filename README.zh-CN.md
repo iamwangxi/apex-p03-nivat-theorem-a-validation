@@ -6,7 +6,9 @@
 
 目标论文：Apex Intelligence，*The Convex Nivat Conjecture: A Complexity Lower Bound for Star Configurations, and a Reduction from Low Convex Complexity to Star Configurations*。[官方 PDF](https://math.apexin.net/papers/convex-nivat.pdf)，发布日期 2026-09-12；891,962 字节；SHA-256 为 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`。本包不附带 PDF。
 
-配套归档：[GitHub v1.0](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.0)；投稿正文版本 `v1.2`。Claude（Opus 5.5）依据论文独立重推了上游链的五个关键接口，未发现错误，但未逐行核对本稿。
+配套归档：[GitHub v1.1](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.1)；投稿正文版本 `v1.2`。Claude（Opus 5.5）依据论文独立重推了上游链的五个关键接口，未发现错误，但未逐行核对本稿。
+
+v1.1 只修正配套文件中的核对状态句，数学内容与证书不变，v1.0 保留不动。
 
 ## 阅读与复现
 

@@ -4,7 +4,7 @@
 
 本文验证 Apex Intelligence 的 *The Convex Nivat Conjecture: A Complexity Lower Bound for Star Configurations, and a Reduction from Low Convex Complexity to Star Configurations* 中 Sections 0–7 关于星形配置定理 A 的完整证明链。结论为 $P_\theta(S)\geq |S|+1$，适用于每个非空有限格凸窗口 $S$。Section 8 与 Appendix D 中从一般低复杂度配置出发的归约不在本验证范围内。我们还指出 Appendix C 的一处说明错误，它不影响这条证明链。
 
-来源：[官方 PDF](https://math.apexin.net/papers/convex-nivat.pdf)，发布日期 2026-09-12，891,962 字节，SHA-256 为 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`。下文使用印刷页码。Theorem A：p.2；Theorem T：p.4；Theorem 7.3：p.18。正文版本：**v1.2**。配套归档：[GitHub v1.0](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.0)。扩展论证：`proof/upstream-proof.md` 和 `proof/expanded-proof.md`。
+来源：[官方 PDF](https://math.apexin.net/papers/convex-nivat.pdf)，发布日期 2026-09-12，891,962 字节，SHA-256 为 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`。下文使用印刷页码。Theorem A：p.2；Theorem T：p.4；Theorem 7.3：p.18。正文版本：**v1.2**。配套归档：[GitHub v1.1](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.1)。扩展论证：`proof/upstream-proof.md` 和 `proof/expanded-proof.md`。
 
 ## 1. 假设、共同周期与 Case A
 

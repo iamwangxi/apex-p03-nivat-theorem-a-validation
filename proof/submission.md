@@ -2,7 +2,7 @@
 
 This note verifies the full proof chain of Theorem A, for star configurations, in Sections 0–7 of Apex Intelligence, *The Convex Nivat Conjecture: A Complexity Lower Bound for Star Configurations, and a Reduction from Low Convex Complexity to Star Configurations*. The conclusion is $P_\theta(S)\geq |S|+1$ for every nonempty finite lattice-convex window $S$. The reduction from general low-complexity configurations in Section 8 and Appendix D is outside this verification. We also identify an explanatory error in Appendix C that does not affect this proof chain.
 
-Source: [official PDF](https://math.apexin.net/papers/convex-nivat.pdf), published 2026-09-12, 891,962 bytes, SHA-256 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`. References below use printed pages. Theorem A: p.2; Theorem T: p.4; Theorem 7.3: p.18. Manuscript **v1.2**; archive [v1.0](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.0). Expanded proofs: `proof/upstream-proof.md` and `proof/expanded-proof.md`.
+Source: [official PDF](https://math.apexin.net/papers/convex-nivat.pdf), published 2026-09-12, 891,962 bytes, SHA-256 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`. References below use printed pages. Theorem A: p.2; Theorem T: p.4; Theorem 7.3: p.18. Manuscript **v1.2**; archive [v1.1](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.1). Expanded proofs: `proof/upstream-proof.md` and `proof/expanded-proof.md`.
 
 ## 1. Hypotheses, common periods and Case A
 

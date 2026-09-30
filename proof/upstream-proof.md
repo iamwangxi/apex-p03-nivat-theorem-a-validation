@@ -2,7 +2,7 @@
 
 # Complete upstream proof and connection to Theorem A, v1.0
 
-Date: 2026-09-30. Scope: §§0–4 of the paper, connected explicitly to the reused algebraic module for §§5–7. This proof concerns Theorem A for star configurations. It excludes the reduction from general configurations. Claude cross-model review of the full chain is **pending**.
+Date: 2026-09-30. Scope: §§0–4 of the paper, connected explicitly to the reused algebraic module for §§5–7. This proof concerns Theorem A for star configurations. It excludes the reduction from general configurations. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces and found no error; it did not line-check this document.
 
 References are to the [official PDF](https://math.apexin.net/papers/convex-nivat.pdf), published 2026-09-12, SHA-256 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`. The downstream proof is [the constructive algebraic module](expanded-proof.md). The two proofs together establish the stated theorem; finite certificates are separate evidence.
 
@@ -313,4 +313,4 @@ This closes Case B when the translation set is nonempty. Together with Case A in
 
 This written mathematical verification uses Laurent unique factorization, Newton multiplicativity, finite-dimensional linear algebra and the reconstructed module; it is not formal certification. Random or finite-box experiments do not replace the general proof.
 
-The two existing global examples and twelve algebraic inputs are reused, with no new coverage claim. See [reproduction](../REPRODUCE.md). The separate [Appendix C audit](appendix-c-audit.md) is not a dependency of this proof. Claude full-chain review remains **pending**.
+The two existing global examples and twelve algebraic inputs are reused, with no new coverage claim. See [reproduction](../REPRODUCE.md). The separate [Appendix C audit](appendix-c-audit.md) is not a dependency of this proof. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces and found no error; it did not line-check this document.

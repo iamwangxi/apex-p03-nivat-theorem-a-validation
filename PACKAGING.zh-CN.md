@@ -2,7 +2,9 @@
 
 # 打包、来源与审阅边界
 
-配套归档 [GitHub v1.0](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.0) 的正文版本为 `v1.2`，保存在 `proof/submission.md`。尚未向悬赏平台提交表单。Claude（Opus 5.5）依据论文独立重推了上游链的五个关键接口，未发现错误，但未逐行核对本稿。
+配套归档 [GitHub v1.1](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.1) 的正文版本为 `v1.2`，保存在 `proof/submission.md`。尚未向悬赏平台提交表单。Claude（Opus 5.5）依据论文独立重推了上游链的五个关键接口，未发现错误，但未逐行核对本稿。
+
+v1.1 只修正配套文件中的核对状态句，数学内容与证书不变，v1.0 保留不动。
 
 ## 数学来源
 

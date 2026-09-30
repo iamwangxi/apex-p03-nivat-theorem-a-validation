@@ -2,7 +2,7 @@
 
 # Reproduce the reused certificates for Theorem A
 
-These are the reused algebraic and global-configuration checks. They do not execute or certify the new general upstream proof in `proof/upstream-proof.md`. Claude review of the full Theorem A chain remains **pending**. No new configuration samples are claimed.
+These are the reused algebraic and global-configuration checks. They do not execute or certify the new general upstream proof in `proof/upstream-proof.md`. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces and found no error; it did not line-check this document. No new configuration samples are claimed.
 
 Run the commands from the package root using Python 3.9 or later. Do not use `-O`: assertions participate in validation. Verification needs only the Python standard library and no network.
 

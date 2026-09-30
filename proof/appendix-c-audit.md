@@ -2,7 +2,7 @@
 
 # Audit of Appendix C statements, v1.0
 
-Date: 2026-09-30. This is a limited statement audit, without regenerated random configurations or repeated homogeneous experiments. Its conclusions are not dependencies of the general proof of Theorem A. Claude full-chain review is **pending**.
+Date: 2026-09-30. This is a limited statement audit, without regenerated random configurations or repeated homogeneous experiments. Its conclusions are not dependencies of the general proof of Theorem A. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces and found no error; it did not line-check this document.
 
 ## 1. Remark 3.1′ and C.3: the example does not support the full-A counterexample
 

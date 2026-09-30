@@ -2,7 +2,9 @@
 
 # Packaging, provenance and review boundaries
 
-Companion archive [GitHub v1.0](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.0) contains submission text version `v1.2` at `proof/submission.md`. No bounty form submission is asserted. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces from the paper and found no error, but did not line-check this manuscript.
+Companion archive [GitHub v1.1](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.1) contains submission text version `v1.2` at `proof/submission.md`. No bounty form submission is asserted. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces from the paper and found no error, but did not line-check this manuscript.
+
+v1.1 only corrects the review-status sentences in the companion files; mathematical content and certificates are unchanged, and v1.0 is preserved.
 
 ## Mathematical sources
 

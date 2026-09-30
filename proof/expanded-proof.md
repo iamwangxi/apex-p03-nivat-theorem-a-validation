@@ -2,7 +2,7 @@
 
 # Constructive proof of the Nivat algebraic module, v1.1
 
-This is the reused downstream module proof, not the scope statement for this package. The configuration premises listed here are discharged by [the upstream proof](upstream-proof.md), which also handles Case A and the affine budget. Together they validate Theorem A under its star-configuration hypotheses. The historical Claude review described below applies to this module only; Claude review of the full Theorem A chain is **pending**.
+This is the reused downstream module proof, not the scope statement for this package. The configuration premises listed here are discharged by [the upstream proof](upstream-proof.md), which also handles Case A and the affine budget. Together they validate Theorem A under its star-configuration hypotheses. The historical Claude review described below applies to this module only; Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces and found no error; it did not line-check this document.
 
 Date: 2026-09-30. Scope: Lemma 5.2 → Proposition 5.3 → Lemma 6.1 → Lemma 7.2. General mathematical arguments are distinguished from computational certificates for fixed inputs.
 

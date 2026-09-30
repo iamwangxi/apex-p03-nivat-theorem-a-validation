@@ -6,7 +6,9 @@ This companion archive validates the full Theorem A chain in §§0–7 of the co
 
 Target: Apex Intelligence, *The Convex Nivat Conjecture: A Complexity Lower Bound for Star Configurations, and a Reduction from Low Convex Complexity to Star Configurations*. [Official PDF](https://math.apexin.net/papers/convex-nivat.pdf), published 2026-09-12; 891,962 bytes; SHA-256 `7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`. The PDF is not bundled.
 
-Companion archive: [GitHub v1.0](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.0); submission text version `v1.2`. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces from the paper and found no error, but did not line-check this manuscript.
+Companion archive: [GitHub v1.1](https://github.com/iamwangxi/apex-p03-nivat-theorem-a-validation/tree/v1.1); submission text version `v1.2`. Claude (Opus 5.5) independently re-derived the five load-bearing upstream interfaces from the paper and found no error, but did not line-check this manuscript.
+
+v1.1 only corrects the review-status sentences in the companion files; mathematical content and certificates are unchanged, and v1.0 is preserved.
 
 ## Read and reproduce
 
