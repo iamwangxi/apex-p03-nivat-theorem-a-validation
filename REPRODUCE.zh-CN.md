@@ -17,7 +17,7 @@ python3 -B code/verify_all.py
 
 冻结输入清单为 `certificates/boundary/frozen-inputs.json`，SHA-256 `f988d2c2f79c155535cebe9afafb0bd513cea0d8d69f4456ddcfbc89e01dc2f6`。检查器从这些输入重建目标表达式，拒绝不完整的恒等式／分量集合以及错误的分母、代表、基数据或支撑。检查器不导入或调用生成器。
 
-两个全局实例须分别恢复 347 和 401 个模式，每例秩均为 $46\to55$。见 `certificates/global-configurations.md`，其中论证有限枚举为何覆盖无限格上的全部平移；只有有限窗口采样并不充分。
+两个全局实例须分别恢复 347 和 401 个模式，每例秩均为 $`46\to55`$。见 `certificates/global-configurations.md`，其中论证有限枚举为何覆盖无限格上的全部平移；只有有限窗口采样并不充分。
 
 ## 可选重新生成
 

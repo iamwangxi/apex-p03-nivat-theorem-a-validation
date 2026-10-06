@@ -17,7 +17,7 @@ On systems with GNU coreutils, `sha256sum -c MANIFEST.sha256` is equivalent. Man
 
 The frozen input list is `certificates/boundary/frozen-inputs.json`, SHA-256 `f988d2c2f79c155535cebe9afafb0bd513cea0d8d69f4456ddcfbc89e01dc2f6`. The checker reconstructs target expressions from these inputs. It rejects incomplete identity/component sets and wrong denominators, representatives, basis data or supports. It neither imports nor invokes a generator.
 
-The global examples must recover 347 and 401 patterns, respectively, and rank $46\to55$ in each case. Read `certificates/global-configurations.md` for why a finite enumeration covers every translation on the infinite lattice; a bounded sample alone would not suffice.
+The global examples must recover 347 and 401 patterns, respectively, and rank $`46\to55`$ in each case. Read `certificates/global-configurations.md` for why a finite enumeration covers every translation on the infinite lattice; a bounded sample alone would not suffice.
 
 ## Optional regeneration
 
