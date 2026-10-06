@@ -154,7 +154,7 @@ R/(a,c)\simeq\prod_{i\ne j}R/(a_i,c_j),\qquad
 对分量 $`(i,j)`$，取代表元 $`r`$ 位于半开平行四边形 $`\{\rho v_i-\tau v_j:0\leq\rho,\tau<1\}`$ 中，它们 将 Laurent 环分解为格余类。在 $`Y^{v_i}`$ 和 $`Y^{-v_j}`$ 中作首一除法，得到以如下指数为基：
 
 ```math
-r+\alpha v_i-\beta v_j,\qquad 0\leq\alpha<d_i,\quad 0\leq\beta<d_j.
+r+\alpha v_i-\beta v_j,\qquad 0\leq\alpha\lt d_i,\quad 0\leq\beta\lt d_j.
 ```
 
 非零常数项使两个变量都可逆；即使第一个商中有零因子，首一除法仍有效。基向量共 $`|\det(v_i,v_j)|d_i d_j`$ 个。置 $`E_{ij}=\prod_{k\ne i}a_k\prod_{\ell\ne j}c_\ell`$。它在其他分量为零，在自身分量可逆。把逆元乘上所需分量后在局部基中展开，再乘以 $`E_{ij}`$。所得张成向量的支撑包含于

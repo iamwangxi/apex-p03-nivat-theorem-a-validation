@@ -234,7 +234,7 @@ R=\bigoplus_{r\in\Pi_{ij}\cap\mathbb Z^2}Y^r K[u^{\pm1},w^{\pm1}].
 The generators $`a_i=A_i(u)`$, $`c_j=A_j(X^{v_j}w)`$ belong to this subring, so the quotient has the same direct-sum decomposition: no additional relations mix different cosets. Both univariate polynomials have nonzero leading and constant coefficients, giving univariate quotients of dimensions exactly $`d_i,d_j`$. Explicitly, if $`P(t)=p_0+\cdots+p_dt^d`$ and $`p_0p_d\ne0`$, then
 
 ```math
-t^d\equiv-p_d^{-1}\sum_{s<d}p_st^s,
+t^d\equiv-p_d^{-1}\sum_{s\lt d}p_st^s,
 \qquad
 t^{-1}\equiv-p_0^{-1}\sum_{s=1}^dp_st^{s-1}\pmod P.
 ```
@@ -258,7 +258,7 @@ has a product basis with exactly $`d_id_j`$ elements $`u^\alpha w^\beta`$. Combi
 
 ```math
 \mathcal B_{ij}=\{Y^{r+\alpha v_i-\beta v_j}:
-r\in\Pi_{ij}\cap\mathbb Z^2,\ 0\le\alpha<d_i,\ 0\le\beta<d_j\}
+r\in\Pi_{ij}\cap\mathbb Z^2,\ 0\le\alpha\lt d_i,\ 0\le\beta\lt d_j\}
 ```
 
 is a basis of $`R/(a_i,c_j)`$, not just a spanning set. Lemma 5.2 (pp.15–16) gives the spanning argument; the unique coset reduction and independence are made explicit here. Therefore

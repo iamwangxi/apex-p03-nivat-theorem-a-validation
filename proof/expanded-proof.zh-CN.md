@@ -234,7 +234,7 @@ R=\bigoplus_{r\in\Pi_{ij}\cap\mathbb Z^2}Y^r K[u^{\pm1},w^{\pm1}].
 生成元 $`a_i=A_i(u)`$、$`c_j=A_j(X^{v_j}w)`$ 属于该子环，故商也按相同直和分解；不会在不同余类之间产生附加关系。两一元多项式的首项、常数项均非零，分别给出恰为 $`d_i,d_j`$ 维的一元商。具体地，若 $`P(t)=p_0+\cdots+p_dt^d`$ 且 $`p_0p_d\ne0`$，则
 
 ```math
-t^d\equiv-p_d^{-1}\sum_{s<d}p_st^s,
+t^d\equiv-p_d^{-1}\sum_{s\lt d}p_st^s,
 \qquad
 t^{-1}\equiv-p_0^{-1}\sum_{s=1}^dp_st^{s-1}\pmod P.
 ```
@@ -258,7 +258,7 @@ K[u^{\pm1},w^{\pm1}]/(A_i(u),A_j(X^{v_j}w))
 
 ```math
 \mathcal B_{ij}=\{Y^{r+\alpha v_i-\beta v_j}:
-r\in\Pi_{ij}\cap\mathbb Z^2,\ 0\le\alpha<d_i,\ 0\le\beta<d_j\}
+r\in\Pi_{ij}\cap\mathbb Z^2,\ 0\le\alpha\lt d_i,\ 0\le\beta\lt d_j\}
 ```
 
 是 $`R/(a_i,c_j)`$ 的基，不只是张成集。Lemma 5.2（第 15–16 页）给出张成论证；这里补充唯一余类约化与独立性。因此

@@ -152,7 +152,7 @@ First, $`(a_i,c_i)=R`$ follows by univariate Euclid: a common root would make th
 For component $`(i,j)`$, representatives $`r`$ in the half-open parallelogram $`\{\rho v_i-\tau v_j:0\leq\rho,\tau<1\}`$ split the Laurent ring into lattice cosets. Monic division in $`Y^{v_i}`$ and $`Y^{-v_j}`$ gives a basis with exponents
 
 ```math
-r+\alpha v_i-\beta v_j,\qquad 0\leq\alpha<d_i,\quad 0\leq\beta<d_j.
+r+\alpha v_i-\beta v_j,\qquad 0\leq\alpha\lt d_i,\quad 0\leq\beta\lt d_j.
 ```
 
 Nonzero constant terms make both variables invertible; monic division remains valid over the first quotient even if it has zero divisors. There are $`|\det(v_i,v_j)|d_i d_j`$ basis vectors. Put $`E_{ij}=\prod_{k\ne i}a_k\prod_{\ell\ne j}c_\ell`$. It vanishes in other components and is a unit in its own. Expand the inverse times any desired component in the local basis, then multiply by $`E_{ij}`$. The resulting spanning vectors have support in

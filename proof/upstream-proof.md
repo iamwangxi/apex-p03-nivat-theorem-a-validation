@@ -37,7 +37,7 @@ If $`z\notin\Sigma_i`$, then $`F_i`$ agrees with one fixed tail throughout $`z+M
 Thus
 
 ```math
-\mathop{\mathrm{supp}}\nolimits(Dh)\subseteq\bigcup_{i<j}(\Sigma_i\cap\Sigma_j).
+\mathop{\mathrm{supp}}\nolimits(Dh)\subseteq\bigcup_{i\lt j}(\Sigma_i\cap\Sigma_j).
 ```
 
 The intersection of two bounded-width strips in nonparallel directions is bounded, since $`z\mapsto(\pi_i(z),\pi_j(z))`$ is invertible. A finite union of such intersections contains finitely many lattice points. This bounds **all anchors**, without numerical boxes or any assumption that subset sums are distinct.
@@ -198,7 +198,7 @@ so $`|\pi_j(z+s)|>c_j`$ with sign $`\mathop{\mathrm{sign}}\nolimits(t\pi_j(v_i))
 A complete finite exceptional envelope is thus
 
 ```math
-F=\bigcup_{i<j}(\Sigma_i^A\cap\Sigma_j^A)\cap\mathbb Z^2
+F=\bigcup_{i\lt j}(\Sigma_i^A\cap\Sigma_j^A)\cap\mathbb Z^2
 \ \cup\ \bigcup_i\{tv_i+qu_i:t,q\in\mathbb Z,\ |q|\le\rho_i,\ |t|\le B_i\}.
 ```
 

@@ -37,7 +37,7 @@ Case A：存在 a 使 $`DI_a\ne0`$。Case B：所有 a 都满足 $`DI_a=0`$，�
 因此
 
 ```math
-\mathop{\mathrm{supp}}\nolimits(Dh)\subseteq\bigcup_{i<j}(\Sigma_i\cap\Sigma_j).
+\mathop{\mathrm{supp}}\nolimits(Dh)\subseteq\bigcup_{i\lt j}(\Sigma_i\cap\Sigma_j).
 ```
 
 两个不平行方向的有界宽度条带之交有界：线性映射 $`z\mapsto(\pi_i(z),\pi_j(z))`$ 可逆。有限个此类交仅含有限格点。这个证明约束**所有锚点**，不依赖数值方框，也不要求形式子集和互不相同。
@@ -198,7 +198,7 @@ B_i=\frac{\rho_i\max_{j\ne i}|\pi_j(u_i)|+\max_{j\ne i}\rho_j}
 因此下面是一个完整的有限异常包络：
 
 ```math
-F=\bigcup_{i<j}(\Sigma_i^A\cap\Sigma_j^A)\cap\mathbb Z^2
+F=\bigcup_{i\lt j}(\Sigma_i^A\cap\Sigma_j^A)\cap\mathbb Z^2
 \ \cup\ \bigcup_i\{tv_i+qu_i:t,q\in\mathbb Z,\ |q|\le\rho_i,\ |t|\le B_i\}.
 ```
 
